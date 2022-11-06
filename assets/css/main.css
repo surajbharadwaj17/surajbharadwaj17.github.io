@@ -37,6 +37,10 @@ ol, ul {
 	list-style: none;
 }
 
+li.menu-item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
 blockquote, q {
 	quotes: none;
 }
